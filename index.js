@@ -18,7 +18,7 @@ const customer = {
 
 const cart = {
     cartId: 'def5cd03-7bf4-49e9-8f0b-380f90c86ec1',
-    belongsTo: 'Hannah',
+    belongsTo: customer,
     createdDate: '2019-07-21',
     purchasedDate: '2019-09-2'
 };
@@ -31,3 +31,5 @@ const cartitem = {
 
 console.log('item', item);
 console.log('customer', customer);
+console.log('cart', cart);
+console.log('cartitem', cartitem);
